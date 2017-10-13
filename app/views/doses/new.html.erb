@@ -1,0 +1,7 @@
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+
+  <%= f.input :description, collection: %w(1oz 2oz 3oz 1pc 2pc 3pc splash pinch) %>
+  <%= f.association :ingredient %>
+  <%= f.submit "Add", class: "btn btn-success" %>
+<% end %>
+
