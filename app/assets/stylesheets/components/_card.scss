@@ -3,11 +3,11 @@
 }
 
 .card {
-  height: 175px;
-  background-size: cover !important;
+  display: flex-inline;
   background-position: center;
   color: black;
   position: relative;
+
 }
 .card-user {
   position: absolute;
